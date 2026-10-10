@@ -1,0 +1,25 @@
+{
+  "name": "klisten-agentescrow",
+  "version": "0.1.0",
+  "description": "Read an existing private unfunded AgentEscrow draft in your organization. No funds are held, transferred or released; no draft creation or delivery verification.",
+  "author": {
+    "name": "Klisten Inc",
+    "email": "klisteninc@gmail.com",
+    "url": "https://klisten.co.kr"
+  },
+  "homepage": "https://klisten.co.kr/docs.html",
+  "userConfig": {
+    "api_key": {
+      "type": "string",
+      "title": "Klisten API key",
+      "description": "Your own Klisten API key with escrow:read. Use a dedicated least-privilege key; never a shared operator key.",
+      "required": true,
+      "sensitive": true
+    }
+  },
+  "license": "UNLICENSED",
+  "icon": "./assets/icon.png",
+  "privacyPolicyUrl": "https://klisten.co.kr/privacy.html",
+  "termsOfServiceUrl": "https://klisten.co.kr/terms.html",
+  "documentationUrl": "https://klisten.co.kr/docs.html"
+}
