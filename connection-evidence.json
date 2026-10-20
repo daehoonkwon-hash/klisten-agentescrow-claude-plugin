@@ -1,0 +1,20 @@
+{
+  "product": "agentescrow",
+  "host": "claude-code",
+  "resource": "https://api.klisten.co.kr/mcp/agentescrow",
+  "publicClientId": "a78cae00-c3fa-46f0-a3c6-0972da1a08bc",
+  "approvedRedirectUris": [
+    "https://claude.ai/api/mcp/auth_callback",
+    "http://localhost:8080/callback"
+  ],
+  "allowedScopes": [
+    "escrow:read",
+    "agentescrow:extensions",
+    "agentescrow:human-review"
+  ],
+  "providerPublicNoneActive": true,
+  "bindingEnabledAtRead": true,
+  "nativeInstallationVerified": false,
+  "toolExecutionVerified": false,
+  "source": "Existing local service contract and exact8 read-only registry metadata; no scope/client/DB changes."
+}

@@ -1,0 +1,11 @@
+{
+  "product": "agentescrow",
+  "status": "SOURCE_CONFIGURED_RUNTIME_UNVERIFIED",
+  "configuration": "existing-enabled-public-oauth-source",
+  "submissionReady": false,
+  "actualHostInstallationVerified": false,
+  "sourceCommitBaseline": "2fa758ce484af1c4fa4ea5ae6f1eafc253dedd46",
+  "scopeChange": false,
+  "newClient": false,
+  "productionMutation": false
+}

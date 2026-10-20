@@ -1,0 +1,65 @@
+{
+  "product": "agentescrow",
+  "tools": [
+    {
+      "name": "agentescrow_draft_get",
+      "scope": "escrow:read",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "agentescrow_verifyEscrowEvidence",
+      "scope": "agentescrow:extensions",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "proof_ingest_claim",
+      "scope": "agentescrow:extensions",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "proof_collect_evidence",
+      "scope": "agentescrow:extensions",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "proof_verify",
+      "scope": "agentescrow:extensions",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "proof_issue_receipt",
+      "scope": "agentescrow:extensions",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "proof_verify_receipt",
+      "scope": "agentescrow:extensions",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "proof_needs_human_review",
+      "scope": "agentescrow:extensions",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "humanloop_createEscrow",
+      "scope": "agentescrow:human-review",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "humanloop_escalate",
+      "scope": "agentescrow:human-review",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "humanloop_resolve",
+      "scope": "agentescrow:human-review",
+      "evidence": "static contract; not runtime tools/list"
+    },
+    {
+      "name": "humanloop_auditTrail",
+      "scope": "agentescrow:human-review",
+      "evidence": "static contract; not runtime tools/list"
+    }
+  ]
+}
